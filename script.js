@@ -22,8 +22,8 @@ buttons.forEach(button => {
       expression += value;
       display.value = expression;
     }
-
-    // =
+  
+   // =
     else if (value === '=') {
       expression = eval(expression).toString();
       display.value = expression;
