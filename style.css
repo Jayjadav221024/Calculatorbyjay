@@ -1,0 +1,42 @@
+.TEXT{
+    text-align: center;
+}
+html,body{
+    width: 100%;
+}
+.mx-auto{
+    margin: auto;
+    max-width: 30vw;
+    width: auto;
+}
+.bg-red{
+    /* background-color: brown; */
+    /* max-width: 30vw; */
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 66px;
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+}
+.row{
+    gap: 1rem;
+    column-gap: 1rem;
+    margin: auto;
+}
+.input{
+   padding: 10px 34px;
+   border: 2px solid black;
+   border-radius: 5px;
+   width: 250px;
+}
